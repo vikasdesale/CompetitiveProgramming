@@ -39,7 +39,7 @@ captures/
 # Keystore files
 *.jks
 
-*.default.workspace
-*.default.workspace.layout
+default.workspace
+default.workspace.layout
 *.exe
 *.o

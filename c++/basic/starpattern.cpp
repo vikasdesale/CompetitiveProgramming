@@ -1,10 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
- int i,j,k=0;
+ int i,j,k=0,rows;
 
- for(i=1;i<=3;i++){
-    for(j=1;j<=3-i;j++){
+ cout<<"Enter Rows:";
+ cin>>rows;
+ for(i=1;i<=rows;i++){
+    for(j=1;j<=rows-i;j++){
         cout<<"  ";
 
         }
