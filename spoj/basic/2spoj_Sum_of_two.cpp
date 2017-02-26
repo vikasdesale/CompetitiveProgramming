@@ -11,7 +11,7 @@ int main(){
 
 
  for(int l=0;l<c;l++)
- cout<<i[l]+j[l]<<endl;
+ cout<<i[l]+j[l];
 
 
 
