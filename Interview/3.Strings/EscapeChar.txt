@@ -1,0 +1,27 @@
+import java.util.Arrays;
+import java.util.BitSet;
+ 
+/**
+ * Practice Question: Escape all % characters in a string; % is the escape character.
+ * @author Vikas Desale
+ */
+public class EscapeChar {
+ 
+    public static void main(String args[]) {
+ 
+		String input="I’d like 2% milk” becomes";
+		
+		System.out.println(""+espacePercent(input));
+    }
+ private static String escapePercent(String input) {
+    StringBuilder sb = new StringBuilder();
+    char[] str = input.toCharArray();
+ 
+    for (int i = 0; i < input.length(); i++) {
+        if (str[i] == ‘%’) sb.append(‘%’);
+        sb.append(str[i]);
+    }
+ 
+    return new String(sb);
+}
+}
